@@ -50,3 +50,22 @@
             min-width: 50px;
             text-align: center;
         }
+        @media (max-width: 600px) {
+            body {
+                padding: 10px;
+            }
+
+            h1 {
+                font-size: 24px;
+            }
+
+            button {
+                width: 100%;
+                padding: 15px;
+                font-size: 18px;
+            }
+
+            #demo {
+                font-size: 20px;
+            }
+        }
